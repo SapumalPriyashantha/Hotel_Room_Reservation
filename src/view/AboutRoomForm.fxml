@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pic1" prefHeight="507.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutRoomFormController">
+   <children>
+      <AnchorPane fx:id="pic2" prefHeight="507.0" prefWidth="260.0" style="-fx-background-color: #398BC6;">
+         <children>
+            <ImageView fx:id="pic3" fitHeight="181.0" fitWidth="230.0" layoutX="15.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/pi.jpg" />
+               </image>
+            </ImageView>
+            <Line fx:id="ln1" endX="100.0" layoutX="130.0" layoutY="318.0" startX="-100.0" />
+            <Text fx:id="txt1" layoutX="90.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About room" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pic4" layoutX="300.0" layoutY="38.0" prefHeight="163.0" prefWidth="461.0">
+         <children>
+            <ImageView fx:id="pic41" fitHeight="163.0" fitWidth="127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/singleroom.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic42" fitHeight="106.0" fitWidth="81.0" layoutX="127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/mirrowsingleroom.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic43" fitHeight="58.0" fitWidth="127.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/singlediningarea.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic44" fitHeight="64.0" fitWidth="66.0" layoutX="64.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/singlewashroom.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic45" fitHeight="58.0" fitWidth="77.0" layoutX="127.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/llunchsingleroom.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic46" fitHeight="20.0" fitWidth="22.0" layoutX="237.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/a5.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic47" fitHeight="27.0" fitWidth="20.0" layoutX="238.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/a4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic48" fitHeight="20.0" fitWidth="29.0" layoutX="238.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/a3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic49" fitHeight="20.0" fitWidth="39.0" layoutX="238.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/a2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic491" fitHeight="20.0" fitWidth="20.0" layoutX="238.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/a1.jpg" />
+               </image>
+            </ImageView>
+            <Text fx:id="txt2" layoutX="285.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Free wifi" />
+            <Text fx:id="txt3" layoutX="285.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pets allowed" />
+            <Text fx:id="txt4" layoutX="285.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Non - smoking" />
+            <Text fx:id="txt5" layoutX="284.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Superb breakfast" />
+            <Text fx:id="txt6" layoutX="285.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Free parking" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pic5" layoutX="300.0" layoutY="217.0" prefHeight="215.0" prefWidth="461.0">
+         <children>
+            <TextArea fx:id="pic51" prefHeight="215.0" prefWidth="461.0" text="If the customer makes a reservation for a night, the hotel room should be emptied by 11.00&#10;am the next day.&#10;&#10;If the customer books a room for a day or longer period, they should move out of the room&#10;by 9.00 am on the day after the requested period.&#10;&#10; Cleaners of the room will take one hour to clean a room after a customer moves out, so the&#10;rooms will not be available for reservation until the cleaning ends&#10;&#10;Rs 3 000 per a day" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="btn1" layoutX="710.0" layoutY="446.0" mnemonicParsing="false" onAction="#openRooms" text="Back" />
+      <Button fx:id="btn2" layoutX="615.0" layoutY="446.0" mnemonicParsing="false" onAction="#openMealplan" text="Conform" />
+      <Button fx:id="btn3" layoutX="300.0" layoutY="446.0" mnemonicParsing="false" onAction="#roomunavailable" text="unavailable" />
+      <Button fx:id="btn4" layoutX="417.0" layoutY="446.0" mnemonicParsing="false" onAction="#roomavailable" text="available" />
+   </children>
+</AnchorPane>

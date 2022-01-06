@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="pic1" prefHeight="573.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewMonthlyFormController">
+   <children>
+      <ComboBox fx:id="cmbWeek" layoutX="62.0" layoutY="73.0" prefWidth="150.0" />
+      <Text fx:id="txt1" layoutX="62.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Week" />
+      <TextField fx:id="txt2" layoutX="62.0" layoutY="130.0" prefHeight="31.0" prefWidth="150.0" />
+      <AnchorPane fx:id="pic2" layoutX="62.0" layoutY="234.0" prefHeight="239.0" prefWidth="280.0">
+         <children>
+            <ImageView fx:id="pic3" fitHeight="239.0" fitWidth="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Table.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="txt3" layoutX="382.0" layoutY="74.0" prefHeight="174.0" prefWidth="336.0" />
+      <Text fx:id="txt4" layoutX="382.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About week" />
+      <Text fx:id="txt5" layoutX="382.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="comment" />
+      <TextField fx:id="txt6" layoutX="382.0" layoutY="299.0" prefHeight="174.0" prefWidth="336.0" />
+      <Button fx:id="btn1" layoutX="653.0" layoutY="502.0" mnemonicParsing="false" onAction="#backAdminMenu" text="Back" />
+   </children>
+</AnchorPane>

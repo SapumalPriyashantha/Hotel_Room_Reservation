@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pic1" prefHeight="518.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPlanFormController">
+   <children>
+      <AnchorPane fx:id="pic11" layoutY="-19.0" prefHeight="537.0" prefWidth="248.0" style="-fx-background-color: #398BC6;">
+         <children>
+            <ImageView fx:id="pic111" fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/p11.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="txt1" layoutX="350.0" layoutY="49.0" prefHeight="381.0" prefWidth="162.0" text="String hoppers&#10;plain hoppers&#10;pol roti&#10;pol sambo&#10;-------------------&#10;Jaffna Crab Curry&#10;Spicy Chicken Curry&#10;Prawn Curry&#10;Fish Curry&#10;Pumpkin Curry&#10;Eggplant Curry&#10;Rice&#10;-------------------&#10;Hopper&#10;String Hoppers&#10;-------------------&#10;Watalappan&#10;Curd and Kithul Treacle&#10;&#10;&#10;&#10;&#10;&#10;" />
+      <TextArea fx:id="txt2" layoutX="542.0" layoutY="49.0" prefHeight="381.0" prefWidth="162.0" text="Roasted Bread&#10;Milk Rice&#10;Coconut Flat Bread&#10;Boiled Manioc&#10;-------------------&#10;young Jackfruit Curry&#10;Matured Jackfruit Curry&#10;Jackfruit Seed Curry&#10;Cashew Curry&#10;Lentil Curry&#10;Green Bean Curry&#10;Rice&#10;-------------------&#10;Kottu Roti&#10;String Hopper Kottu&#10;-------------------&#10;Lavariya&#10;Chocolate Biscuit Pudding&#10;&#10;&#10;&#10;&#10;" />
+      <TextArea fx:id="txt3" layoutX="750.0" layoutY="49.0" prefHeight="381.0" prefWidth="162.0" text="tir-fried Chickpeas&#10;Sri Lankan Omelet&#10;Herbal Porridge&#10;potato curry and dahl&#10;-------------------&#10;Leafy Green Salad&#10; Ambarella Curry&#10;Banana Flower Curry&#10;Lotus Root Curry&#10;Papadam&#10;Onion Chili Relish&#10; Rice&#10;-------------------&#10;pancake&#10;Grilled Seafood&#10;-------------------&#10;Kiri Toffee and Pol Toffee&#10;Sesame Seed Candies&#10;&#10;&#10;" />
+      <Button fx:id="btn1" layoutX="388.0" layoutY="454.0" mnemonicParsing="false" onAction="#opencustomerdetails" text="conform" />
+      <Button fx:id="btn2" layoutX="585.0" layoutY="454.0" mnemonicParsing="false" onAction="#opencustomerdetails" text="conform" />
+      <Button fx:id="btn3" layoutX="793.0" layoutY="454.0" mnemonicParsing="false" onAction="#opencustomerdetails" text="conform" />
+      <Text fx:id="txt4" layoutX="267.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Break fast" />
+      <Text fx:id="txt41" layoutX="267.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lunch" />
+      <Text fx:id="txt42" layoutX="267.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dinner" />
+      <Text fx:id="txt421" layoutX="267.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sweets" />
+      <Text fx:id="txt5" layoutX="368.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Local - Rs 3 000" wrappingWidth="115.79052734375" />
+      <Text fx:id="txt51" layoutX="565.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="French - Rs 4 000" wrappingWidth="115.79052797192708" />
+      <Text fx:id="txt52" layoutX="766.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chinees - Rs 5 000" wrappingWidth="129.95068359375" />
+   </children>
+</AnchorPane>
